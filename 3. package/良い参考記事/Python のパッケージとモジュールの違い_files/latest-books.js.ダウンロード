@@ -1,0 +1,36 @@
+(function ($) {
+
+var script = $('#python-latest-books-script');
+var $container = $('#python-latest-books');
+
+if (script.length < 1 || $container.length < 1) {
+  return;
+}
+
+var url = script.data('url');
+if (!url) {
+  return;
+}
+
+$.get(url, {format: 'json'}, function (data) {
+  if (data) {
+    var $ul = $('<ul>');
+    for (var i = 0; i < data.length; i++) {
+      var book = data[i];
+      var $li = $('<li>');
+      $('<span>').addClass('python-latest-books-published')
+                 .text(book['published'])
+                 .appendTo($li);
+      $('<a>').addClass('python-latest-books-title')
+              .prop('href', book['url'])
+              .prop('target', '_blank')
+              .text(book['title'])
+              .appendTo($li);
+      $li.appendTo($ul);
+    }
+
+    $ul.appendTo($container);
+  }
+});
+
+})(jQuery);
