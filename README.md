@@ -1,4 +1,4 @@
-Fundamentals_in_python
+Fundamental code examples in python
 ===
 > written at 2018.11.14
  
