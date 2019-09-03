@@ -2,7 +2,7 @@
 """
 Created on Tue Sep 11 18:51:19 2018
 
-@author: dadad
+@author: d01tkum
 """
 class A:
     def method(self):

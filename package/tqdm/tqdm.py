@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Wed Nov 14 16:16:54 2018
-@author: dadad
+@author: d01tkum
 
 =====================================
 This is the examples of 'tqdm'puckage

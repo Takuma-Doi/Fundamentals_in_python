@@ -2,7 +2,7 @@
 """
 Created on Tue Sep 11 19:59:30 2018
 
-@author: dadad
+@author: d01tkum
 """
 class Spam:
     __aaa = 100

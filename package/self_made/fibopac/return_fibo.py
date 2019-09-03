@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Sep 11 23:51:23 2018
+Created on Tue Sep 11 23:52:11 2018
 
-@author: dadad
+@author: d01tkum
 """
 
-def fibo_make(n):
+def fibo(n):
     result = []
     a = 1
     b = 1
@@ -18,4 +18,4 @@ def fibo_make(n):
     return result
 
 if __name__ == "__main__":
-    print("{0}".format(fibo_make(100)))
+    print("{0}".format(fibo(100)))

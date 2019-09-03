@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 12 18:14:04 2018
 
-@author: takuma
+@author: d01tkum
 """
 
 import matplotlib.pyplot as plt

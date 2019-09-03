@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 12 00:08:16 2018
 
-@author: 拓磨
+@author: d01tkum
 """
 
 from math import cos,sin,tan

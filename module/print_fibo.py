@@ -2,7 +2,7 @@
 """
 Created on Tue Sep 11 23:52:11 2018
 
-@author: dadad
+@author: d01tkum
 """
 
 import fibonacci

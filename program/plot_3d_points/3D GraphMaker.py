@@ -2,7 +2,7 @@
 """
 Created on Sat May 19 19:44:28 2018
 
-@author: dadad
+@author: d01tkum
 """
 from mpl_toolkits.mplot3d import Axes3D   
 import matplotlib.pyplot as plt 

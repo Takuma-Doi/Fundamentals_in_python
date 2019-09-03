@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 12 00:10:01 2018
 
-@author: 拓磨
+@author: d01tkum
 """
 
 from fibopac import  return_fibo, return_math
